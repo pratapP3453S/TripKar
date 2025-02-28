@@ -1,0 +1,24 @@
+i want to build a project for my last year, so i made a conceptual project called "TripKar" mostly MERN stack based with many other tech stacks if required.
+
+problem :- suppose if a person want to visit mumbai as a tourist for a first time from delhi, what he would do...
+1. first book a cab/taxi or airway from any particular app like ola, uber, etc.
+2. then he should book a hotel from any app like goibibo, etc.
+3. after he reached to hotel, firstly he would decide a famous places in Mumbai and then repeat the step step 
+4. if he gone to any historical place, he look for guide
+5. when tour completed, he want to return to home again repeat the first step
+
+All these problems will solved by "TripKar" web-app
+
+User using Tripkar app
+solution :- reconsidering the same scenario, a person comes to Mumbai tour.
+1. User first register/login the app.
+2. select the state/city he wanted to visit for tour(like Mumbai darshan pack, goa tour pack, etc) ensure the budget and selects as fits on his budget 
+   - like example: if there is 2 pack for Mumbai tour a)Mumbai darshan costs 10,999/- b)Mumbai chao costs 8,500/-
+     in "a" pack he ofcourse gets some extra, like airway, luxury hotel, cabs, etc. and in "b" pack he gets, train, mid-level hotels, taxis, etc.
+3. select the date, from when the journey begins and all hotel booking, train/plane booking, taxi booking are placed, user no need to think how to do what to do...
+
+TripKar :- a centralized planned tour package, share experiences and memories (like in Twitter people tweet, here in or after tour user can share there experience of tour and places), user can customize there plan too.
+
+how it works :- a data from ola/uber for taxi/cabs, goibibo or others for hotels, guides, trains from irctc will gathered from API and one agent or admin bundle all the data in one package and decide a price and can published, once a user selects the package all bookings will be held automatically(as an agent already bundled all things in one package) and user will be free of tension
+
+so, please give me a complete proper structure for building this conceptual project "TripKar" 
