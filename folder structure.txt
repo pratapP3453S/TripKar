@@ -1,3 +1,5 @@
+chatgpt
+
 tripkar/
 │── public/                      # Static assets (images, fonts, etc.)
 │── src/
@@ -72,3 +74,34 @@ tripkar/
 │── tailwind.config.js            # Tailwind CSS config
 │── package.json                  # Dependencies and scripts
 │── README.md                     # Project documentation
+
+
+deepseek
+
+tripkar/
+├── public/                  # Static assets (images, icons, etc.)
+├── src/
+│   ├── app/                 # Next.js 13+ app directory (optional)
+│   ├── components/          # Reusable UI components (using shadcn)
+│   ├── features/            # Redux Toolkit slices (modular state management)
+│   ├── hooks/               # Custom React hooks
+│   ├── lib/                 # Utility functions (e.g., API calls, helpers)
+│   ├── models/              # MongoDB models (Mongoose schemas)
+│   ├── pages/               # Next.js pages
+│   │   ├── api/             # API routes (backend)
+│   │   ├── auth/            # Authentication pages (login, register)
+│   │   ├── admin/           # Admin panel pages
+│   │   ├── dashboard/       # User dashboard pages
+│   │   ├── packages/        # Tour package pages
+│   │   ├── _app.tsx         # Custom App component
+│   │   ├── _document.tsx    # Custom Document component
+│   │   └── index.tsx        # Homepage
+│   ├── store/               # Redux Toolkit store configuration
+│   ├── styles/              # Global styles (TailwindCSS config)
+│   ├── types/               # TypeScript types/interfaces
+│   └── utils/               # Utility functions (e.g., validation, formatting)
+├── .env.local               # Environment variables
+├── next.config.js           # Next.js configuration
+├── tailwind.config.js       # TailwindCSS configuration
+├── tsconfig.json            # TypeScript configuration
+└── package.json             # Project dependencies
