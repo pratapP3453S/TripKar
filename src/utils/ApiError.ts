@@ -23,8 +23,6 @@ class ApiError extends Error implements IApiError {
 
         if (stack) {
             this.stack = stack;
-        } else {
-            Error.captureStackTrace(this, this.constructor);
         }
     }
 }
